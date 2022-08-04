@@ -1,0 +1,43 @@
+*{
+    text-align: center;
+    text-decoration: none;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to bottom,brown, yellow );
+}
+h1{
+    color: white;
+    margin-bottom: 10px;
+}
+h3{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+img{
+   width: 200px;
+   height: 200px;
+}
+.a{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 2rem;
+    color: black;
+}
+
+@media(max-width:300px){
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 18px;
+    }
+    img{
+        width: 150px;
+        height: 150px;
+     }
+}
